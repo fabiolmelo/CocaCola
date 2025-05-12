@@ -3272,24 +3272,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\fabiom\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CocaCola\\CocaCola.Mvc\\CocaCola.Mvc.csproj",
+      "projectUniqueName": "C:\\PROJETO\\CocaCola\\CocaCola.Mvc\\CocaCola.Mvc.csproj",
       "projectName": "CocaCola.Mvc",
-      "projectPath": "D:\\CocaCola\\CocaCola.Mvc\\CocaCola.Mvc.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\CocaCola\\CocaCola.Mvc\\obj\\",
+      "projectPath": "C:\\PROJETO\\CocaCola\\CocaCola.Mvc\\CocaCola.Mvc.csproj",
+      "packagesPath": "C:\\Users\\fabiom\\.nuget\\packages\\",
+      "outputPath": "C:\\PROJETO\\CocaCola\\CocaCola.Mvc\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\fabiom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3369,7 +3376,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
