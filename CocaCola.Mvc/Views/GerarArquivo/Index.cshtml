@@ -1,0 +1,17 @@
+@model CocaCola.Mvc.Models.Entidades.Restaurante
+<div class="container">
+    <div class="row">
+        <div class="titulo">EXTRATO DE INCIDÊNCIA</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 card-cliente">
+            <h6 class="texto">Franqueado: XXXXXXXXXXXX</h6>
+            <h6 class="texto">Cidade: @Model.Cidade - @Model.Uf</h6>
+            <h6 class="texto">Endereço: XXXXXXXXXXXX</h6>
+            <h6 class="texto">Código: XXXXX    COxxxxxx</h6>
+        </div>
+    </div>
+    <div></div>
+        <div class="titulo-mes">@Model.MesCompetencia (META DE INCIDÊNCIA: @Model.ExtratoMesCompetencia.Meta%)</div>
+    </div>
+</div>
